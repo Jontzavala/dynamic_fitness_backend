@@ -1,4 +1,4 @@
-class GymsController < ApplicationController
+class Api::V1::GymsController < ApplicationController
   before_action :set_gym, only: [:show, :update, :destroy]
 
   # GET /gyms
