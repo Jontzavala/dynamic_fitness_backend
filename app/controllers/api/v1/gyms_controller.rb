@@ -10,7 +10,7 @@ class Api::V1::GymsController < ApplicationController
 
   # # GET /gyms/1
   # def show
-  #   render json: @gym
+  #   render json: GymSerializer.new(@gym)
   # end
 
   # POST /gyms
